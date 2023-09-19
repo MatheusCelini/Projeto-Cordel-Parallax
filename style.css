@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --font01:'Passion One', cursive;
+    --font02:'Sriracha', cursive;}
+
+    body{margin: 0px;
+        padding: 0px;}
+    
+    header{background-color: black;
+    padding: 40px;}
+    header>h1{font-family: var(--font01);
+    margin: 0px;
+    color: white;
+    text-align: center;
+    font-size: 10vw;}
+    header>p{color: rgba(255, 255, 255, 0.315);
+    text-align: center;
+    margin: 0px;}
+    header>p>a{text-decoration: none;
+    color: white;}
+    header>p>a:hover{text-decoration: underline;font-weight: bold;}
+    
+    
+    
+    main{text-align: left; 
+    font-family: var(--font02);
+    font-size: 5vw;
+    line-height: 2em;
+    
+}
+    
+    .fbranco{background-color: rgb(255, 255, 255);
+        padding-left: 15px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+            
+        }
+    .fbranco>p{margin: 0px;}
+    
+    .fimg1{padding-left: 30px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        background-image: url(imagens/background001.jpg);
+        background-size: cover;
+        background-position: right;
+        box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.37);
+        background-attachment: fixed;
+        
+    }
+
+        
+    
+    .fimg1>p{margin: 0px;
+    background-color: rgba(0, 0, 0, 0.438);
+    display: inline-block;
+    color: white;
+    padding: 15px;
+    background-position: right center;}
+    
+    .fimg2{padding-left: 30px;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+     background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    box-shadow: inset 1px 1px 20px rgba(0, 0, 0, 0.37);
+    background-attachment: fixed;
+}
+    
+    .fimg2>p{margin: 0px;
+        background-color: rgba(0, 0, 0, 0.356);
+        display: inline-block;
+        color: white;
+        padding: 15px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.329);}
+
+    footer{background-color: black;color: white;
+    font-size:4vw;
+    text-align: center;
+    padding: 5px;
+    }
+    footer>p>a{text-decoration: none; color: white;}
+    footer>p>a:hover{text-decoration: underline;}
+    
